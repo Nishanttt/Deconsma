@@ -52,6 +52,12 @@ img {
 	max-width: 100%;
 }
 
+#logo{
+	max-width: 100%;
+	width: 80px;
+	height: 80px;
+}
+
 input:focus,
 select:focus,
 button:focus,
@@ -85,6 +91,11 @@ ol {
 	color: #222222;
 	display: inline-block;
 }
+
+.sp-paragraph span{
+	color: #222222;
+}
+
 
 .pt100 {
 	padding-top: 100px;
@@ -431,7 +442,7 @@ ol {
 .logo-area {
 	float: left;
 	display: inline-block;
-	background: #121212;
+	background: #ffffff;
 	padding: 20px 60px 30px;
 }
 
@@ -770,7 +781,7 @@ ol {
 	width: 50%;
 	height: 100%;
 	left: 0;
-	background-image: url("../img/11.jpg");
+	background-image: url("../img/cta-img.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -832,7 +843,7 @@ ol {
 	float: left;
 	font-size: 20px;
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 7px;
 	line-height: 1.5;
 	position: relative;
 	z-index: 1;
@@ -1140,7 +1151,7 @@ ol {
 .testimonials-section .qut {
 	color: #baff00;
 	font-size: 36px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 .ts-item p {
@@ -1171,16 +1182,16 @@ ol {
 }
 
 .team-member .member-info {
-	position: absolute;
+	/*position: absolute;*/
 	padding-left: 35px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width: 230px;
+	width: 283px;
 	background: #fff;
 	bottom: 37px;
 	right: 0;
-	-webkit-box-shadow: 6px 7px 20px rgba(114, 114, 114, 0.21);
-	        box-shadow: 6px 7px 20px rgba(114, 114, 114, 0.21);
+	-webkit-box-shadow: 6px 7px 7px 7px rgba(114, 114, 114, 0.21);
+	        box-shadow: 6px 7px 7px 7px rgba(114, 114, 114, 0.21);
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
@@ -1189,6 +1200,12 @@ ol {
 .team-member .member-info h2 {
 	font-size: 30px;
 	margin-bottom: 0;
+}
+.team-member .team-member-ordered-list{
+	color: #727272;
+	padding: 20px, 57px, 20px, 57px;
+	font-size: 16px;
+	padding-left: 57px;
 }
 
 .team-member .member-info p {
@@ -1774,11 +1791,35 @@ ol {
 		left: auto;
 		right: 0;
 	}
+	.footer-section .footer-social {
+		width: auto;
+		top: -25px;
+		right: 50%;
+		padding: 10px;
+		margin-right: -133px;
+	}
+	.footer-section .social-links a {
+		display: inline-block;
+		padding: 0 15px;
+		margin-bottom: 0;
+	}
 }
 
 @media only screen and (max-width: 1400px) {
 	.promo-box {
 		width: 100%;
+	}
+	.footer-section .footer-social {
+		width: auto;
+		top: -25px;
+		right: 50%;
+		padding: 10px;
+		margin-right: -133px;
+	}
+	.footer-section .social-links a {
+		display: inline-block;
+		padding: 0 15px;
+		margin-bottom: 0;
 	}
 }
 
@@ -1809,6 +1850,18 @@ ol {
 	}
 	.hero-right-text {
 		right: 100px;
+	}
+	.footer-section .footer-social {
+		width: auto;
+		top: -25px;
+		right: 50%;
+		padding: 10px;
+		margin-right: -133px;
+	}
+	.footer-section .social-links a {
+		display: inline-block;
+		padding: 0 15px;
+		margin-bottom: 0;
 	}
 }
 
@@ -1919,6 +1972,7 @@ ol {
 		margin-bottom: -50px;
 		padding-left: 15px;
 	}
+
 }
 
 /* Large Mobile :480px. */
@@ -2064,6 +2118,26 @@ ol {
 	.footer-item {
 		margin-bottom: 40px;
 	}
+	.team-member .member-info {
+	/*position: absolute;*/
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 444px;
+	background: #fff;
+	bottom: 37px;
+	right: 0;
+	-webkit-box-shadow: 6px 7px 7px 7px rgba(114, 114, 114, 0.21);
+	        box-shadow: 6px 7px 7px 7px rgba(114, 114, 114, 0.21);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.team-member .member-info h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+}
 }
 
 /* small mobile :320px. */
@@ -2108,4 +2182,24 @@ ol {
 	.projects-slider {
 		padding: 0 15px;
 	}
+	.team-member .member-info {
+	/*position: absolute;*/
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 360px;
+	background: #fff;
+	bottom: 37px;
+	right: 0;
+	-webkit-box-shadow: 6px 7px 7px 7px rgba(114, 114, 114, 0.21);
+	        box-shadow: 6px 7px 7px 7px rgba(114, 114, 114, 0.21);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.team-member .member-info h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+}
 }
